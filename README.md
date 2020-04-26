@@ -24,3 +24,7 @@ Things you may want to cover:
 - ...
 
 Good luck, have fun!
+
+REST - Representation state transfer - mapping HTTP verbs (get,post, put/patch, delete) to CRUD actions
+
+resources provides REST-ful routes to Rails resources
