@@ -1,30 +1,28 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Resource
 
-Things you may want to cover:
+- Users - create users table and model
+  - add validations
+  - username must be present and unique, min 3 max 25
+  * email address must be present and unique, max 105
+  * email must be valid email format, check with email regex
 
-- Ruby version
+Associations
 
-- System dependencies
+- One-to-many
+  between users and articles
 
-- Configuration
+REST for users
 
-- Database creation
+Authentication
 
-- Database initialization
+- Login using secure password
 
-- How to run the test suite
+Restriction of actions
 
-- Services (job queues, cache servers, search engines, etc.)
+- Based on logged in/logged out state
 
-- Deployment instructions
+Security
 
-- ...
-
-Good luck, have fun!
-
-REST - Representation state transfer - mapping HTTP verbs (get,post, put/patch, delete) to CRUD actions
-
-resources provides REST-ful routes to Rails resources
+- Admin user functionality and access level
