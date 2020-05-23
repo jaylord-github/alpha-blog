@@ -42,7 +42,7 @@ class CategoriesControllerTest < ActionDispatch::IntegrationTest
       # post :create, category: { name: "sports" } # rails 6
       post categories_url, params: { category: { name: 'sports' } } # rails 5
     end
-    assert_redirected_to categories_path # or pwedi ra pud 'categories_url'
+    assert_redirected_to categories_path # or pwedi ra pud 'categories_url
   end
 
   # test "should get edit" do
