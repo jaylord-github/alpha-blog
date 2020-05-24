@@ -84,3 +84,14 @@ body {
 .flickr_pagination .next_page {
   margin-left: 1em;
 }
+
+.badge {
+  background-color: #cef6f5;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.input_checkbox input {
+  width: auto !important;
+}

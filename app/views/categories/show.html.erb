@@ -1,1 +1,9 @@
-<h1 class="text-center mt-4">Category: <%= @category.name %>'s profile</h1>
+<h1 class="text-center mt-4"><%= "Category: " + @category.name %></h1>
+
+<div class="flickr_pagination">
+  <%= will_paginate @category_articles %>
+</div>
+<%= render 'articles/article', obj: @category_articles %>
+<div class="flickr_pagination mb-4">
+  <%= will_paginate @category_articles %>
+</div>
